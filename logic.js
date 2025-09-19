@@ -17,11 +17,11 @@ const crearCuadricula = (cantidad) => {
     }
 }
 
-    const accion = (e) => {
-        if (e.type === 'mouseover' && !mouseDown)
-        if (e.target.classList.contains('dibujo')) {
-            e.target.style.backgroundColor = color;
-        }   
-    }
+const accion = (e) => {
+    if (e.type === 'mouseover' && !mouseDown) return
+    if (e.target.classList.contains('dibujo')) {
+        e.target.style.backgroundColor = color;
+    }   
+}
 
-crearCuadricula(20000); // crear 20000 divs.
+crearCuadricula(16384); // crear 20000 divs.

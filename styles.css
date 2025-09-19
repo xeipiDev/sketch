@@ -28,11 +28,9 @@ html, body {
 }
 
 .dibujo {
-    height: 2px;
-    width: 2px;
-    border: 1px solid #ccc;
+    height: 4px;
+    width: 4px;
     background-color: white;
-    gap: 0px;
     flex: 1 1 auto;
 }
 
@@ -41,6 +39,8 @@ html, body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    height: 500px;
+    width: 500px;
 }
 
 .opciones {
